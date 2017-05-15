@@ -1,0 +1,186 @@
+<style type="text/css">
+input, textarea {
+	border: 0;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+}
+
+input:focus {
+	border: 0;
+	outline: 0;
+}
+
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+	color: #eaeaea;
+	border-color: #ccc;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+input:focus:valid:focus,
+textarea:focus:valid:focus,
+select:focus:valid:focus {
+	color: #dedede;
+	border-color: #ccc;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+::-moz-selection {
+	background: #2e2e2e;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #2e2e2e;
+	color: #fff;
+	text-shadow: none;
+}
+.subscriber {
+	margin:0;
+	float:left;
+	display:block;
+	height:322px;
+	width:400px;
+	border-radius:3px;
+	background-color:rgba(0,0,0,0.2);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#8c000000', endColorstr='#4c000000'); /* IE */
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px rgba(0, 0, 0, 0.4);
+} 
+
+.subscriber-wrap {
+	padding: 4px 20px 0px 20px;
+}
+
+.subscriber h3 {
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-size: 1.12em;
+	margin: 0 0 20px;
+}
+
+.subscriber p {
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+
+.subscriber input {
+	padding: 0 45px;
+	color: #fff;
+	border-radius: 20px;
+	height: 40px;
+	width: 100%;
+	margin: 22px 0 0;
+}
+.subscriber textarea {
+	padding: 0 45px;
+	color: #fff;
+	border-radius: 20px;
+	height: 92px;
+	width: 100%;
+	margin: 22px 0 0; 
+}
+
+input.name-newsletter, input.email-newsletter {
+	color: #fff;
+	background: no-repeat scroll 18px 12px rgba(0, 0, 0, 0.1);
+	border-color: #ccc;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+textarea.text-newsletter {
+	color: #fff;
+	background: no-repeat scroll 18px 12px rgba(0, 0, 0, 0.1);
+	border-color: #ccc;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2) inset;border: 0; line-height:40px;
+}
+
+input.name-newsletter {
+	background-image: url(name.png);
+}
+
+input.email-newsletter {
+	background-image: url(email.png);
+}
+textarea.text-newsletter {
+	background-image: url(email.png);
+}
+
+input[type="text"],
+input[type="email"] {
+	border: 0;
+}
+
+
+input.button-newsletter {
+	display: block;
+	clear: both;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+	float: right;
+	width: 125px;
+	padding: 0 18px 0 0;
+	color: #eee;
+	margin-right:8px;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+
+input.button-newsletter:hover {
+	color: #191919;
+	background-color: #aaa;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(255, 255, 255, 0) inset, 0 -1px 1px rgba(255, 255, 255, 0) inset, 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.subscriber label {
+	line-height: 5;
+	text-align: center;
+	font-size: 10px;
+	clear: both;
+	margin: 8px 0 0;
+	color: #fff;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+input.button-newsletter {
+	background: url(send.png) no-repeat scroll 92px 9px #c0c0c0;
+}
+input.button-newsletter:hover{
+	background: url(send_h.png) no-repeat scroll 92px 9px #c0c0c0;
+}
+
+.sfm_float_box_td
+{  background:transparent; text-shadow:none; color:transparent;	border:0; position:relative; top:-260px; left:-80px;}
+.sfm_close_box
+{   color:transparent;
+    background:url(error.png) no-repeat 0 2px transparent;
+    border:0px;
+	width:20px;
+	height:30px;
+    text-align:center;cursor:pointer;
+	text-shadow:none; position:relative; top:-242px; left:-80px;
+}
+.sfm_close_box:hover
+{ background:url(error-h.png) no-repeat 0 2px transparent;
+}
+
+</style>
+<div class="subscriber" style="width:400px; height:322px;">
+						<div class="subscriber-wrap">
+<form method="post" name="contact_form" id="contact_form" action=".php" > 
+
+<input type="text" name="Name" id="contact_name" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''" value="Name" class="autoclear name-newsletter"> 
+
+<input type="text" name="Email" id="contact_email" onBlur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''" value="Email" class="email-newsletter">
+
+<textarea id="contact_message" name="Message" cols="4" rows="4" onBlur="if(this.value=='') this.value='Message'" onFocus="if(this.value =='Message' ) this.value=''" class="text-newsletter">Message</textarea><br/> 
+
+<input type="submit" name="submit" id="submit" value="SEND" class="button-newsletter">  
+</form> 
+						</div>
+					</div>

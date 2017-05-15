@@ -1,0 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html >
+   <head >
+      <title ></title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'/>
+      <style type='text/css'>body,td{font-family:Arial;font-size :12px;}</style>
+      <meta name='GENERATOR' content='MSHTML 11.00.9600.17496'/>
+   </head>
+<body style='background:url(http://sarawilliamsnovels.com/bg_sw.png) no-repeat 0 0 transparent; width:400px; height:322px;'><h3>Hi %Name%,</h3>  <br/><p>Thank you for contacting me.  I appreciate your communications.</p> </body>
+</html>

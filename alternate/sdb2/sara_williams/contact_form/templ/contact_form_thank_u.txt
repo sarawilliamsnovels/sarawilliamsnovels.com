@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html >
+   <head >
+      <title ></title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'/>
+<script type="text/javascript" src="http://sarawilliamsnovels.com/sw_webfonts.js"></script>
+      <meta name='GENERATOR' content='MSHTML 11.00.9600.17496'/>
+   </head>
+   <body style='background:url(http://sarawilliamsnovels.com/bg_sw.png) no-repeat 0 0 transparent;'>
+      <div ><h1 style="color:#ff0000; font-family:Allerta Stencil; font-size:42px; width:100%; text-align:center">THANK YOU</h1> </div>
+
+   </body>
+</html>
