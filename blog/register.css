@@ -1,0 +1,121 @@
+.item {
+	font-size: 18px;
+	display: block;
+	margin: 2px;
+	padding: 2px;
+	border-bottom: 1px solid #0000CC;
+	font-weight: bold;
+	width: 350px;
+}
+.indent {
+	padding-left: 25px;
+}
+.section {
+	color:#000000;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin: 2px;
+	padding: 2px;
+	border-bottom: 2px solid #0000CC;
+	text-decoration: none;
+}
+a.section {
+	color:#000000;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin: 2px;
+	padding: 2px;
+	border-bottom: 2px solid #0000CC;
+	text-decoration: none;
+}
+
+.colheader {
+	font-size: 11px;
+	background-color: #DCE9FC;
+	
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid #0000CC;
+	font-weight: bold;
+}.btm {
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.other {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #0000FF;
+	border-right-color: #0000FF;
+	border-bottom-color: #000000;
+	border-left-color: #0000FF;
+	padding: 2px;
+	background-color: #CEDBDF;
+	font-size: 11px;
+	font-weight: bold;
+}
+.theone {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 0px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	padding: 2px;
+	font-weight: bold;
+}
+.central {
+	border-top-width: 0px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+.info {
+	font-size: 13px;
+	color: #0000CC;
+	text-decoration: none;
+	border: 2px solid #0000CC;
+	display: block;
+	padding: 2px;
+}
+acronym {
+	text-decoration: none;
+	border: none;
+}
+.note {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
